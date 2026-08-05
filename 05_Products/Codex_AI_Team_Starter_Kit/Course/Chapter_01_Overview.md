@@ -36,3 +36,7 @@
 ## 次の章
 
 次は、GitHub・GitHub Desktop・Codexを使うための環境を準備します。
+
+## 体調や時間に余裕がない日の最小タスク
+
+今日はここまででも大丈夫です。Codex、GitHub Desktop、ブラウザ版GitHubの役割を一行ずつ読み返します。
