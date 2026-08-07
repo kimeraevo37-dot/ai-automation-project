@@ -97,20 +97,22 @@
 
 `.gitkeep`、CodexによるCommit、PublicとPrivate、誤ったリポジトリ、README以外のChanges、GitHubに表示されないフォルダを扱う。未検証の高度なGit修復は含めない。
 
-## 7. 画面キャプチャ計画
+## 7. 画面キャプチャの現在状態
 
-すべて未撮影。撮影時は、アカウント名、メールアドレス、ローカルの個人情報、認証情報を伏せる。
+正常フロー用Public画像8枚は作成済みで、`Images/`へ配置し、該当ChapterからMarkdownで参照している。撮影時に個人情報・認証情報を除外し、Public版では教材に不要な識別情報を処理した。
 
-| ID | 画面 | 使用章 | 画面で伝えること | 個人情報リスク | 撮影状況 |
-| --- | --- | --- | --- | --- | --- |
-| SC-01 | GitHub DesktopのCurrent repository | Chapter 3 | 正しいリポジトリ名を確認する | アカウント名・ローカルパス | 未撮影 |
-| SC-02 | GitHub DesktopのChanges（基盤3文書） | Chapter 8 | 第1Commitの対象は3ファイルだけ | ファイル内容 | 未撮影 |
-| SC-03 | GitHub DesktopのSummaryとCommit操作 | Chapter 8 | Summaryと対象ファイルを確認する | コミット内容 | 未撮影 |
-| SC-04 | Push後のGitHubファイル一覧 | Chapter 8 | ブラウザ版で基盤3文書を確認する | アカウント名・リポジトリ名 | 未撮影 |
-| SC-05 | Codexへ渡すFIRST_TASK_PROMPT | Chapter 9 | README.md一件に限定する | プロジェクト固有の入力内容 | 未撮影 |
-| SC-06 | GitHub DesktopのChanges（README.mdのみ） | Chapter 10 | 第2Commitの対象を確認する | README内容 | 未撮影 |
-| SC-07 | GitHubのCommit履歴 | Chapter 10 | 第1・第2Commitが分かれている | アカウント名・リポジトリ名 | 未撮影 |
-| SC-08 | ローカル空フォルダとGitHub表示の比較 | Chapter 4、Trouble 2 | 空フォルダが表示されない理由 | ローカルパス | 未撮影 |
+| ID | 画面 | 使用章 | 現在の状態 |
+| --- | --- | --- | --- |
+| S-001 | GitHub DesktopのCurrent repository | Chapter 3 | Public画像作成済み。`Images/S001_current_repository_public.png`をMarkdown参照済み。 |
+| S-003 | GitHub DesktopのChanges（基盤3文書） | Chapter 8 | Public画像作成済み。`Images/S003_foundation_changes_public.png`をMarkdown参照済み。 |
+| S-004 | GitHub DesktopのSummaryとChanges | Chapter 8 | Public画像作成済み。`Images/S004_summary_and_changes_public.png`をMarkdown参照済み。 |
+| S-005 | Commit後のPush origin | Chapter 8 | Public画像作成済み。`Images/S005_push_origin_public.png`をMarkdown参照済み。 |
+| S-006 | GitHub上の基盤ファイルの反映確認 | Chapter 8 | Public画像作成済み。`Images/S006_foundation_files_github_public.png`をMarkdown参照済み。`00_Command_Center`は閉じた状態である。 |
+| S-007 | GitHub DesktopのChanges（README.mdのみ） | Chapter 10 | Public画像作成済み。`Images/S007_readme_changes_public.png`をMarkdown参照済み。 |
+| S-009 | GitHub上のREADME表示 | Chapter 10 | Public画像作成済み。`Images/S009_readme_github_public.png`をMarkdown参照済み。 |
+| S-010 | GitHubのCommit履歴 | Chapter 10 | Public画像作成済み。`Images/S010_commit_history_public.png`をMarkdown参照済み。 |
+
+空フォルダ比較、ローカルパス、Codexへ渡すプロンプトなどの追加候補は、未実施のまま`SCREENSHOT_PLAN.md`で管理する。
 
 ## 8. 教材本文作成の優先順位
 

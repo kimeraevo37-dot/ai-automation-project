@@ -53,59 +53,71 @@
 - 困ったときの戻り方と、途中からの再開方法
 - 各章の完了条件
 
-### Chapter 1: CodexとGitHubの役割
+### Chapter 1: CodexとGitHubの全体像
 
 - Codex、GitHub、GitHub Desktopがそれぞれ何をするものか
 - リポジトリ、Commit、Pushを初心者向けに説明
 - AIによる変更を確認してから承認する基本の流れ
 
-### Chapter 2: 初期環境の準備
+### Chapter 2: 環境を準備する
 
 - GitHub登録とGitHub Desktop導入
 - リポジトリ作成とCodexとの連携
 - 認証情報・個人情報を公開しないための注意
 
-### Chapter 3: プロジェクトのフォルダ作成
+### Chapter 3: 正しいリポジトリを確認する
+
+- Current repository、`main`、ローカルパスの確認
+- 本番用とテスト用のリポジトリを区別する方法
+- 画面付きで、GitHub DesktopとCodexが同じ場所を見ているか確認する手順
+
+### Chapter 4: 最小フォルダ構成を作る
 
 - 最小フォルダ構成と各フォルダの役割
 - 初めから巨大な構成を作らない理由
-- 作成後の確認方法
+- 空フォルダと`.gitkeep`の扱い
 
-### Chapter 4: ROADMAP.mdの作成
+### Chapter 5: ROADMAP.mdを作る
 
 - ROADMAPの目的、記載項目、テンプレート
 - Codexへの作成依頼プロンプト
 - 完成確認チェックリスト
 
-### Chapter 5: COMPANY_RULE.mdの作成
+### Chapter 6: COMPANY_RULE.mdを作る
 
 - 人間とAIの権限分担
 - 公開、課金、送信、削除に関する承認ルール
 - テンプレート、作成プロンプト、完成確認チェックリスト
 
-### Chapter 6: AGENTS.mdの作成
+### Chapter 7: AGENTS.mdを作る
 
 - ルート直下へ配置する理由
 - Codexが作業開始時に参照する指示
 - 短く保つ理由、テンプレート、作成プロンプト、完成確認チェックリスト
 
-### Chapter 7: GitHubへ保存する
+### Chapter 8: 基盤3文書を保存する
 
-- 変更内容の確認、Summaryの入力、Commit、Push
-- ブラウザ版GitHubでの確認
-- よくある失敗と、元に戻す前に確認すること
+- 基盤3文書だけを第1Commitとして確認する
+- Summary、Commit、Push、ブラウザ版GitHubでの確認
+- 画面付きで、Changes・Push origin・GitHub上の反映を確認する手順
 
-### Chapter 8: 最初のAIタスクを実行する
+### Chapter 9: Codexへ最初のタスクを依頼する
 
-- 小さなタスクを一つ依頼する
-- Codexの提案と差分を確認する
-- 承認後にGitHubへ保存し、作業記録を残す
+- README.md一件だけを安全に依頼する
+- Codexの報告と作業範囲を確認する
+- 第2Commitへ進む前の確認条件
 
-### Chapter 9: 継続運用
+### Chapter 10: README.mdだけを確認して保存する
 
-- 次回の再開方法
-- 15分・30分・60分タスクへの分解
-- Ideas Backlogと定期見直しの使い方
+- README.mdだけを第2Commitとして確認する
+- Summary、Commit、Push、ブラウザ版GitHubでの確認
+- 画面付きで、READMEの反映と3段階のCommit履歴を確認する手順
+
+### Chapter 11: 次回の再開方法
+
+- 対象リポジトリ、Git状態、基盤文書を確認する
+- `AGENTS.md`、`ROADMAP.md`、`COMPANY_RULE.md`を読む順番
+- 次の小さなタスクと再開位置の記録
 
 ### Appendix
 

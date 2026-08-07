@@ -26,23 +26,23 @@
 
 | ID | 画面名 | 使用章 | 伝える内容 | 必須度 | 撮影元 | 個人情報リスク | 加工方針 | 状態 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S-001 | GitHub DesktopのCurrent repository | Chapter 3 | 作業開始前に正しいリポジトリ名を確認する | 必須 | 新しいPrivateテスト用リポジトリ | GitHub名、他リポジトリ名 | 必要箇所だけ切り抜き、他の履歴を隠す | 未撮影 |
+| S-001 | GitHub DesktopのCurrent repository | Chapter 3 | 作業開始前に正しいリポジトリ名を確認する | 必須 | 新しいPrivateテスト用リポジトリ | GitHub名、他リポジトリ名 | 必要箇所だけ切り抜き、他の履歴を隠す | Public版完成。`Images/S001_current_repository_public.png`をMarkdown参照済み。 |
 | S-002 | ローカルパスの確認 | Chapter 3、Trouble 3 | CodexとGitHub Desktopが同じフォルダを見ているか確認する | 高 | 新しいPrivateテスト用リポジトリ | Windowsユーザー名、ローカルパス | 架空の安全なユーザー名・パスで撮影できる場合のみ採用 | 再現可否確認中 |
-| S-003 | 基盤3文書だけがChangesにある状態 | Chapter 8 | 第1Commit前の対象は3ファイルだけである | 必須 | 新しいPrivateテスト用リポジトリ | ファイル内容、リポジトリ名 | Changes一覧を中心に切り抜く | 未撮影 |
-| S-004 | Summary入力欄とChanges | Chapter 8 | SummaryとCommit対象を一緒に確認する | 必須 | 新しいPrivateテスト用リポジトリ | ファイル内容、リポジトリ名 | 3ファイル一覧とSummaryだけを残す | 未撮影 |
-| S-005 | Push originが表示された状態 | Chapter 8 | CommitとPushは別操作で、人間がPushする | 必須 | 新しいPrivateテスト用リポジトリ | アカウント名、通知 | ボタン周辺だけを切り抜く | 未撮影 |
-| S-006 | ブラウザ版GitHubの基盤3文書 | Chapter 8 | Push後に3文書が反映されたことを確認する | 必須 | 新しいPrivateテスト用リポジトリ | GitHubユーザー名、URL、他タブ | リポジトリ名の公開可否を事前決定し、不要部分を切り抜く | 未撮影 |
-| S-007 | README.mdだけがChangesにある状態 | Chapter 10 | 第1Commit後、READMEだけを第2Commitの対象にする | 必須 | 新しいPrivateテスト用リポジトリ | README内容、リポジトリ名 | Changes一覧を中心に切り抜く | 未撮影 |
+| S-003 | 基盤3文書だけがChangesにある状態 | Chapter 8 | 第1Commit前の対象は3ファイルだけである | 必須 | 新しいPrivateテスト用リポジトリ | ファイル内容、リポジトリ名 | Changes一覧を中心に切り抜く | Public版完成。`Images/S003_foundation_changes_public.png`をMarkdown参照済み。 |
+| S-004 | Summary入力欄とChanges | Chapter 8 | SummaryとCommit対象を一緒に確認する | 必須 | 新しいPrivateテスト用リポジトリ | ファイル内容、リポジトリ名 | 3ファイル一覧とSummaryだけを残す | Public版完成。`Images/S004_summary_and_changes_public.png`をMarkdown参照済み。 |
+| S-005 | Push originが表示された状態 | Chapter 8 | CommitとPushは別操作で、人間がPushする | 必須 | 新しいPrivateテスト用リポジトリ | アカウント名、通知 | ボタン周辺だけを切り抜く | Public版完成。`Images/S005_push_origin_public.png`をMarkdown参照済み。 |
+| S-006 | ブラウザ版GitHubの基盤ファイル | Chapter 8 | Push後にGitHub上で基盤ファイルの反映を確認する | 必須 | 新しいPrivateテスト用リポジトリ | GitHubユーザー名、URL、他タブ | リポジトリ名の公開可否を事前決定し、不要部分を切り抜く | Public版完成。`Images/S006_foundation_files_github_public.png`をMarkdown参照済み。`00_Command_Center`は閉じた状態である。 |
+| S-007 | README.mdだけがChangesにある状態 | Chapter 10 | 第1Commit後、READMEだけを第2Commitの対象にする | 必須 | 新しいPrivateテスト用リポジトリ | README内容、リポジトリ名 | Changes一覧を中心に切り抜く | Public版完成。`Images/S007_readme_changes_public.png`をMarkdown参照済み。 |
 | S-008 | README用Summary入力欄 | Chapter 10 | 第2Commit前にSummaryとREADMEだけを確認する | 中 | 新しいPrivateテスト用リポジトリ | README内容、リポジトリ名 | S-007と同じ画面で十分なら別画像にしない | 不採用 |
-| S-009 | ブラウザ版GitHubのREADME表示 | Chapter 10、11 | 第2Push後にREADMEを読めることと再開場所を確認する | 必須 | 新しいPrivateテスト用リポジトリ | GitHubユーザー名、URL | READMEとファイル一覧に必要な部分だけを残す | 未撮影 |
-| S-010 | Commit履歴が3件ある状態 | Chapter 10 | Initial、基盤、READMEを分けた結果を確認する | 必須 | 新しいPrivateテスト用リポジトリ | GitHubユーザー名、URL | Commit一覧だけを切り抜く | 未撮影 |
+| S-009 | ブラウザ版GitHubのREADME表示 | Chapter 10、11 | 第2Push後にREADMEを読めることと再開場所を確認する | 必須 | 新しいPrivateテスト用リポジトリ | GitHubユーザー名、URL | READMEとファイル一覧に必要な部分だけを残す | Public版完成。`Images/S009_readme_github_public.png`をMarkdown参照済み。 |
+| S-010 | Commit履歴が3件ある状態 | Chapter 10 | Initial、基盤、READMEを分けた結果を確認する | 必須 | 新しいPrivateテスト用リポジトリ | GitHubユーザー名、URL | Commit一覧だけを切り抜く | Public版完成。`S010_commit_history_raw_v3.png`由来の`Images/S010_commit_history_public.png`をMarkdown参照済み。 |
 | S-011 | 空フォルダのローカル表示 | Chapter 4、Trouble 2 | ローカルには存在してもGitHubに表示されない場合がある | 中 | 新しいPrivateテスト用リポジトリ | Windowsユーザー名、ローカルパス | 安全なテスト用パスで、フォルダ名だけが読めるようにする | 再現可否確認中 |
 | S-012 | GitHub側で空フォルダが見えない状態 | Trouble 2 | 空フォルダが追跡されないことと、作成失敗ではないこと | 中 | 新しいPrivateテスト用リポジトリ | GitHubユーザー名、URL | S-011との比較に必要な部分だけを残す | 再現可否確認中 |
 | S-013 | 別リポジトリを開いている例 | Trouble 3 | リポジトリ取り違えの危険 | 低 | 安全に実在する失敗例を再現できる場合のみ | 他リポジトリ名、ローカルパス | 架空のエラー画面を作らず、実在の安全なテスト例だけを使う | 再現可否確認中 |
 
-## 4. 最小撮影セット
+## 4. 最小撮影セットの実施結果
 
-Version 0.2で撮影する最小セットは、次の**8枚**とする。
+Version 0.2の最小セットは、次の**8枚**を撮影・加工し、教材用Public画像として`05_Products/Codex_AI_Team_Starter_Kit/Images/`へ配置した。
 
 1. S-001：Current repository
 2. S-003：基盤3文書だけのChanges
@@ -67,7 +67,7 @@ S-008はS-007またはS-010のキャプションで補えるため、別画像�
 | MARKET_RESEARCH.mdがGitHub側にない状態 | 不採用 | 当時の原因が未確定で、画面だけでは安全な対処を断定できない。 |
 | SummaryとCommit内容が一致しない状態 | 不採用 | 具体的な原因と安全な再現方法が未確認。 |
 
-## 6. 撮影順序
+## 6. 撮影順序（実施済み）
 
 1. 新しいPrivateテスト用リポジトリを準備する。
 2. S-001：Current repositoryを撮影する。
@@ -124,22 +124,28 @@ S001_current_repository_public.png
 - `public`：教材掲載用
 - 番号：この計画のIDと一致させる
 
-## 11. 保存先
+## 11. 保存先と記録用原本
 
-将来の保存先候補は次のとおり。今回はフォルダを作成しない。
+教材に掲載するPublic画像は、次の場所へ配置済みである。
 
 ```text
 05_Products/
 └── Codex_AI_Team_Starter_Kit/
-    └── Assets/
-        └── Screenshots/
-            ├── Raw/
-            └── Public/
+    └── Images/
+        ├── S001_current_repository_public.png
+        ├── S003_foundation_changes_public.png
+        ├── S004_summary_and_changes_public.png
+        ├── S005_push_origin_public.png
+        ├── S006_foundation_files_github_public.png
+        ├── S007_readme_changes_public.png
+        ├── S009_readme_github_public.png
+        └── S010_commit_history_public.png
 ```
 
-- RawはGitHubへCommitしない運用を推奨する。
-- Rawを`.gitignore`対象にする案は、撮影開始前に別途レビューする。
-- 今回は`.gitignore`を変更しない。
+- Raw画像はリポジトリ外の記録用原本として保持し、Gitへ追加しない。
+- 旧`S010_commit_history_raw.png`は失敗例、`S010_commit_history_raw_v2.png`は途中確認記録として保持する。どちらも正常フロー用Public画像には使用しない。
+- 正常フロー用のS-010 Public画像は、`S010_commit_history_raw_v3.png`を元に作成したものだけを使用する。
+- `.gitignore`は今回変更しない。
 
 ## 12. 画面ごとの完了条件
 
@@ -170,10 +176,10 @@ S001_current_repository_public.png
 
 ## 14. 完了条件
 
-- [ ] Version 0.2で撮る最小8枚以下が確定している。
-- [ ] 各画面の使用章が決まっている。
-- [ ] 撮影順序が決まっている。
-- [ ] 個人情報保護方針がある。
-- [ ] rawとpublicの管理方針がある。
-- [ ] 未確認の失敗画面を無理に採用していない。
-- [ ] 本番環境を変更せず撮影できる。
+- [x] Version 0.2の最小8枚が確定している。
+- [x] 各画面の使用章が決まっている。
+- [x] 撮影順序を実施した。
+- [x] 個人情報保護方針がある。
+- [x] rawとpublicの管理方針がある。
+- [x] 未確認の失敗画面を無理に採用していない。
+- [x] 本番環境を変更せず撮影した。

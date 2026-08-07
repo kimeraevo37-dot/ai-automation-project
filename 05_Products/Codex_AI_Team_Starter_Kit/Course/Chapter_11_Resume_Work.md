@@ -14,9 +14,9 @@
 
 1. GitHub Desktopで対象リポジトリ名とCurrent branchを確認します。
 2. Codexで同じローカルフォルダを開きます。
-3. `ROADMAP.md`を読み、現在のフェーズと最優先の成果物を確認します。
-4. `COMPANY_RULE.md`を読み、承認が必要な操作を確認します。
-5. `AGENTS.md`を読み、Codexが確認する順番と作業ルールを確認します。
+3. `AGENTS.md`を読み、Codexが確認する順番と作業ルールを確認します。
+4. `00_Command_Center/ROADMAP.md`を読み、現在のフェーズと最優先の成果物を確認します。
+5. `00_Command_Center/COMPANY_RULE.md`を読み、承認が必要な操作を確認します。
 6. GitHub DesktopのChangesまたはGit状態を確認します。
 7. 次に依頼するタスクを一件だけ決めます。
 8. 作業を終えるときは、次に確認するファイルやタスクを短く残します。
