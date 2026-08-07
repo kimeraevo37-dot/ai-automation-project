@@ -15,6 +15,11 @@ README.mdだけを確認し、第2Commit・Pushとして保存します。
 1. GitHub DesktopのChangesを開きます。
 2. `README.md`だけが表示されていることを確認します。
 3. 基盤3文書がChangesに混ざっていないことを確認します。
+
+![README.mdだけがChangesにある画面](../Images/S007_readme_changes_public.png)
+
+> README.mdだけがChangesにあることを確認します。
+
 4. READMEの見出し、目的、構成、再開方法、安全ルールを読みます。
 5. Summaryへ次を入力します。
 
@@ -27,15 +32,13 @@ docs: プロジェクトREADMEを追加
 8. Commit後、人間がPush originを実行します。
 9. ブラウザ版GitHubでREADME.mdとCommit履歴を確認します。
 
-> **画像候補：S-007**
-> README.mdだけがChangesに表示される画面。
-> 読者が確認する箇所：Changes一覧にREADME.mdだけがあること。
-> 暫定判定：必須。
+![GitHub上のREADMEを確認する画面](../Images/S009_readme_github_public.png)
 
-> **画像候補：S-009、S-010**
-> ブラウザ版GitHubでREADME.mdとCommit履歴を確認する画面。
-> 読者が確認する箇所：README表示と、基盤・READMEが別Commitであること。
-> 暫定判定：S-009は必須、S-010は補助。
+> Push後、README.mdがGitHub上に反映されていることを確認します。
+
+![3段階のCommit履歴を確認する画面](../Images/S010_commit_history_public.png)
+
+> 最後にCommit履歴が3段階になっていることを確認します。上から `docs: プロジェクトREADMEを追加`、`docs: プロジェクト基盤を追加`、`Initial commit` の順に表示されます。
 
 ## よくある間違い
 

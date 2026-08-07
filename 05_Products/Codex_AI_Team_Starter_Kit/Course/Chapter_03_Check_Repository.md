@@ -29,13 +29,13 @@ GitHub DesktopとCodexが、同じ正しいリポジトリを見ていること�
 Current repository が対象リポジトリになっていることを確認します。名前が長い場合は末尾が「...」で省略されることがあります。
 
 4. 画面上部の **Current branch** が `main` か確認します。
+
+![Current repositoryとmainを確認する画面](../Images/S001_current_repository_public.png)
+
+> Current repository と `main` を確認します。
+
 5. 不安な場合は、Repositoryメニューからエクスプローラーで場所を開きます。
 6. 開いたフォルダの名前と、Codexで開いているフォルダを確認します。
-
-> **画像候補：S-001**
-> GitHub Desktopで、現在選択されているリポジトリ名を確認する画面。
-> 読者が確認する箇所：画面左上のCurrent repositoryと、画面上部のCurrent branch。
-> 暫定判定：必須。
 
 ## Codex側で確認する
 

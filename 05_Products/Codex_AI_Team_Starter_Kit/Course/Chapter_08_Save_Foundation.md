@@ -22,10 +22,9 @@ GitHub DesktopのChangesには、次の3ファイルだけが表示されてい�
 
 README.mdや、今回の目的と関係ないファイルが表示されている場合は、Commitしません。
 
-> **画像候補：S-003**
-> 基盤3文書だけがChangesに表示される画面。
-> 読者が確認する箇所：Changes一覧にある3ファイルの名前。
-> 暫定判定：必須。
+![基盤3文書だけがChangesにある画面](../Images/S003_foundation_changes_public.png)
+
+> Commit前に、Changesが基盤3文書だけになっていることを確認します。
 
 ## ファイルのチェック
 
@@ -49,10 +48,9 @@ docs: プロジェクト基盤を追加
 
 Summaryは、何を保存するCommitかを後で分かるようにする短い説明です。SummaryとChangesのファイルが一致していることを確認します。
 
-> **画像候補：S-004**
-> Summary入力欄と、基盤3文書だけが表示されたChangesの画面。
-> 読者が確認する箇所：Summaryと3ファイルの一覧。
-> 暫定判定：必須。
+![SummaryとChangesを照合する画面](../Images/S004_summary_and_changes_public.png)
+
+> SummaryとChangesの内容が一致していることを確認します。
 
 ## Commitする
 
@@ -72,10 +70,9 @@ Pushは、Commitした履歴をGitHubへ送る操作です。CommitとPushは別
 2. 内容に問題がなければ、人間がPush originを押します。
 3. Push完了後に、ブラウザ版GitHubを開きます。
 
-> **画像候補：S-005**
-> Commit後にPush originが表示された画面。
-> 読者が確認する箇所：Push originと、Changesが空であること。
-> 暫定判定：必須。
+![Push originを確認する画面](../Images/S005_push_origin_public.png)
+
+> Commit後、Changesが空になったことを確認してからPushします。
 
 ## ブラウザ版GitHubで確認する
 
@@ -87,10 +84,10 @@ Push後、ブラウザ版GitHubで次を確認します。
 - `COMPANY_RULE.md`
 - Commit履歴
 
-> **画像候補：S-006**
-> ブラウザ版GitHubで基盤3文書が表示された画面。
-> 読者が確認する箇所：ファイル一覧とCommit履歴への入口。
-> 暫定判定：補助。
+![GitHub上の基盤ファイルを確認する画面](../Images/S006_foundation_files_github_public.png)
+
+> Push後、GitHub上に基盤ファイルが反映されていることを確認します。
+> この画像では `00_Command_Center` は閉じているため、`ROADMAP.md` と `COMPANY_RULE.md` は直接表示されていません。
 
 ## Changesが空になったことを確認する
 
